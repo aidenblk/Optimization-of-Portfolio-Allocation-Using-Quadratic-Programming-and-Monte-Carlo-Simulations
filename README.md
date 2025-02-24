@@ -34,11 +34,12 @@ This project implements **portfolio optimization** using **quadratic programming
    cd portfolio-optimization-matlab
 
 2. Open MATLAB and naviagte to the project directory.
-3. Run the main script
+   After adding all the MATLAB files to the same project continue to step 4.
+4. Run the main script
    ```bash
    main
    ```
-4. The output will include:
+5. The output will include:
    optimized portfolio weights
    Minimum portfolio risk
    Efficent Frontier plot with random portfolios and the optimal portfoliio marked with a red dot.

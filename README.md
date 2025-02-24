@@ -34,7 +34,7 @@ This project implements **portfolio optimization** using **quadratic programming
    cd portfolio-optimization-matlab
 
 2. Open MATLAB and naviagte to the project directory.
-   After adding all the MATLAB files to the same project continue to step 4.
+  - After adding all the MATLAB files to the same project continue to step 4.
 4. Run the main script
    ```bash
    main

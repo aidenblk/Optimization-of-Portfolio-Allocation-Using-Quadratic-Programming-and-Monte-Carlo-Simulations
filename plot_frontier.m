@@ -8,10 +8,10 @@ function plot_frontier(risk, return_vals, optimal_risk, expected_returns, optima
 end
 
 % Train Neural Network
-X = risk;  % Inputs: Portfolio Risk
-Y = return_vals; % Outputs: Expected Returns
-net = fitnet(10); % 10 hidden neurons
-net = train(net, X', Y'); % Train network
+X = risk; 
+Y = return_vals; 
+net = fitnet(10); 
+net = train(net, X', Y'); 
 
 % Predict efficient frontier
 risk_range = linspace(min(X), max(X), 100);
